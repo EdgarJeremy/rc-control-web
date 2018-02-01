@@ -1,0 +1,31 @@
+* {
+    font-family: Arial;
+}
+.button {
+    padding: 20px;
+    border-radius: 100%;
+    outline: 0;
+    background-color: #ffffff;
+    border: 5px solid #000000;
+    width: 150px;
+    height: 100px;
+    margin: 5px;
+    font-size: 20px;
+    transition: 0.1s ease;
+    font-weight: bolder;
+}
+.button.pressed {
+    color: #ffffff;
+    background-color: #000000;
+    transform: scale(0.9);
+}
+.centering {
+    text-align: center;
+}
+.ctrl-wrap {
+    margin: 0 auto;
+    display: inline-block;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 100%;
+}
